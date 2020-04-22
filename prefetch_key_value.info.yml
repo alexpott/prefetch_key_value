@@ -1,0 +1,4 @@
+name: Prefetch Key Value
+type: module
+description: 'Provides an optimized key value service'
+core_version_requirement: ^8 || ^9

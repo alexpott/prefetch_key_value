@@ -1,0 +1,5 @@
+services:
+  prefetch_key_value:
+    class: Drupal\prefetch_key_value\KeyValueFactory
+    decorates: keyvalue.database
+    arguments: ['@prefetch_key_value.inner']
